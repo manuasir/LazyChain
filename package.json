@@ -1,5 +1,5 @@
 {
-  "name": "brewchain",
+  "name": "lazychain",
   "version": "1.0.0",
   "description": "NodeJS Blockchain implementation - Protecting the tea making ledger from unscrupulous colleagues",
   "main": "app.js",
@@ -8,14 +8,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/dbbddb/BrewChain.git"
+    "url": "git+https://github.com/dbbddb/LazyChain.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/dbbddb/BrewChain/issues"
+    "url": "https://github.com/dbbddb/LazyChain/issues"
   },
-  "homepage": "https://github.com/dbbddb/BrewChain#readme",
+  "homepage": "https://github.com/dbbddb/LazyChain#readme",
   "dependencies": {
     "body-parser": "^1.18.2",
     "express": "^4.16.2",

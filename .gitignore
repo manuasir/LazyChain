@@ -60,3 +60,6 @@ typings/
 
 # In case if someone did file history locally
 .history
+
+# In case contributor is working on MacOS
+.DS_Store

@@ -1,0 +1,56 @@
+{
+	"info": {
+		"_postman_id": "ceeecf39-90a6-4df7-9b5c-aa289b17384c",
+		"name": "LazyChain",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Add Node",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "{{DOMAIN}}:{{HTTP_PORT}}/addNode/{{NODE_PORT}}",
+					"host": [
+						"{{DOMAIN}}"
+					],
+					"port": "{{HTTP_PORT}}",
+					"path": [
+						"addNode",
+						"{{NODE_PORT}}"
+					]
+				},
+				"description": "## Cases\n1. Status 200: init connection\n2. Status 200: ECONNREFUSED\n\nYou can see the status in console instead of API response"
+			},
+			"response": []
+		},
+		{
+			"name": "Create Block",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "{{DOMAIN}}:{{HTTP_PORT}}/spawnLazy/{{text}}",
+					"host": [
+						"{{DOMAIN}}"
+					],
+					"port": "{{HTTP_PORT}}",
+					"path": [
+						"spawnLazy",
+						"{{text}}"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
